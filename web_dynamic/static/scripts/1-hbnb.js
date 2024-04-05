@@ -7,7 +7,6 @@ $(document).ready(function () {
       if ($(this).prop('checked')) {
         amenityIds.push(amenityId);
       } else {
-        // If unchecked, remove the Amenity ID from the array
         amenityIds = amenityIds.filter(id => id !== amenityId);
       }
       // Update the h4 tag inside the div Amenities with the list of Amenities checked
