@@ -2,7 +2,6 @@ $(document).ready(function () {
     let amenityIds = [];
 
     $('input[type="checkbox"]').change(function () {
-      // Retrieve Amenity ID from data-id attribute
       const amenityId = $(this).data('id');
   
       if ($(this).prop('checked')) {
