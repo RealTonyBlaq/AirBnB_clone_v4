@@ -1,8 +1,6 @@
 $(document).ready(function () {
-    // Initialize an empty array to store Amenity IDs
     let amenityIds = [];
-  
-    // Listen for changes on each input checkbox tag
+
     $('input[type="checkbox"]').change(function () {
       // Retrieve Amenity ID from data-id attribute
       const amenityId = $(this).data('id');
