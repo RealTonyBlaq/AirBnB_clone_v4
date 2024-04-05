@@ -16,4 +16,4 @@ $(document).ready(function () {
       const amenitiesText = amenityIds.length > 0 ? amenityIds.join(', ') : '&nbsp;';
       $('.popover h4').html(amenitiesText);
     }
-  });
+});
